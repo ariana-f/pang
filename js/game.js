@@ -1,4 +1,4 @@
-import { Level001 } from "./level0001";
+import { Level001 } from "./level001";
 import { LoadScene } from "./loadscene";
 
 const config = {

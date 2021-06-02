@@ -12,4 +12,8 @@ export class Level001 extends Phaser.Scene {
     create() {
         this.add.image(0, 0, 'background').setOrigin(0).setScale(5);
     }
+
+    update(time) {
+        
+    }
 }
