@@ -2,8 +2,8 @@ import { Level001 } from "./level001.js";
 import { LoadScene } from "./loadscene.js";
 
 const config = {
-    width: 1740,
-    height: 1040,
+    width: 1925,
+    height: 940,
     type: Phaser.AUTO,
     parent: 'game-canvas',
     backgroundColor: '#ffff',
