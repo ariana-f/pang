@@ -1,3 +1,4 @@
+import { Level001 } from "./level0001";
 import { LoadScene } from "./loadscene";
 
 const config = {
@@ -6,7 +7,7 @@ const config = {
     type: Phaser.AUTO,
     parent: 'game-canvas',
     backgroundColor: '#ffff',
-    scene: [LoadScene],
+    scene: [LoadScene, Level001],
     physics: {
         default: 'arcade',
         arcade: {

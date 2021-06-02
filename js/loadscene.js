@@ -4,7 +4,7 @@ export class LoadScene extends Phaser.Scene {
     }
 
     preload() {
-
+        this.load.image('background', './images/bg.png');
     }
 
     create() {
@@ -12,6 +12,6 @@ export class LoadScene extends Phaser.Scene {
     }
 
     createAnimations() {
-        
+
     }
 }
